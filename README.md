@@ -33,3 +33,6 @@ This project simulates a professional firewall audit and optimization exercise. 
 | 100 | Unused rule allowing ANY to DB Server | Remove |
 | 110 | Overlapping object groups | Consolidate objects |
 | 120 | Source IP overly permissive | Restrict to authorized IPs |
+
+🔍 Optimization Screenshot:
+Screenshot showcasing firewall rules audit findings and optimization recommendations.
