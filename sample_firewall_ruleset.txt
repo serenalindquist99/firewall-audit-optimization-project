@@ -1,0 +1,6 @@
+access-list outside_access_in extended permit tcp any host 10.10.10.1 eq 443
+access-list outside_access_in extended permit tcp any host 10.10.10.2 eq 22
+access-list outside_access_in extended deny ip any any
+object-group network internal_network
+ network-object 192.168.1.0 255.255.255.0
+ network-object 192.168.2.0 255.255.255.0
